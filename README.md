@@ -44,7 +44,7 @@ https://docs.newrelic.com/docs/apm/agents/java-agent/configuration/java-agent-co
 
 **Example**
   
-pack build CONTAINERNAME -p ./PATHTOJAVAAPP -b -b paketo-buildpacks/java -b ./PATHTOLOCALBUILDPACK ... \
+pack build CONTAINERNAME -p ./PATHTOJAVAAPP -b paketo-buildpacks/java -b ./PATHTOLOCALBUILDPACK ... \
 
 --env `BP_NEW_RELIC_ENABLED`=true \ -----------> Required condition to build the buildpack as default is false
 
