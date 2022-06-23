@@ -66,7 +66,7 @@ User settings override the newrelic.yml default settings.
 <br/>
 Please refer to New Relic Java agent documentation for more information
 
-[https://docs.newrelic.com/docs/apm/agents/java-agent/configuration/java-agent-configuration-config-file/#config-options-precedence](https://docs.newrelic.com/static/60ca967eab99ca225186310913ae2de6/8c557/java-config-cascade.png)
+https://docs.newrelic.com/docs/apm/agents/java-agent/configuration/java-agent-configuration-config-file
 
 <br/>
 By default the Java agent configuration file will be located at /layers/newrelic_java/nr-agent-java/newrelic.yml, this can be overwritten at runtime, with configmap for kubernetes deployments.
