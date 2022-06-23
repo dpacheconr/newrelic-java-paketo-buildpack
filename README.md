@@ -57,7 +57,7 @@ pack build ... \
 **Configuration settings precedence**
  
 
-![Settings precedence](https://docs.newrelic.com/static/60ca967eab99ca225186310913ae2de6/8c557/java-config-cascade.png)
+![Settings precedence](https://docs.newrelic.com/static/java-config-cascade-bb36c948f6227353b43c253c234092df.png)
 
 With the Java agent, server-side configuration overrides all other settings.
 Environment variables override Java system properties.
